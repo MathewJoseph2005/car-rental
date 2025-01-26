@@ -1,6 +1,7 @@
 /* Header Styles */
 .header {
   position: sticky;
+  height: 100px;
   top: 0;
   background-color: var(--background);
   border-bottom: 1px solid var(--border-color);
@@ -9,18 +10,27 @@
 }
 
 .header .container {
-  display: flex;
+  height: 50px;
+  display: left;
   justify-content: space-between;
-  align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
 .logo-icon {
@@ -28,9 +38,10 @@
 }
 
 .nav {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
+    margin-left: auto; /* Pushes nav to the right */
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .nav a {
