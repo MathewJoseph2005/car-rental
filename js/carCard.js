@@ -3,7 +3,6 @@ function createCarCard(car) {
       <div class="car-card" data-car-id="${car.id}">
           <div class="car-image">
               <img src="${car.image}" alt="${car.name}">
-              <div class="price-badge">$${car.pricePerDay}/day</div>
           </div>
           <div class="car-content">
               <h3 class="car-title">${car.name}</h3>
@@ -72,10 +71,6 @@ function createCarDetails(car) {
                       <line x1="3" x2="21" y1="10" y2="10"/>
                   </svg>
                   <p>${car.year}</p>
-              </div>
-              <div class="info-card">
-                  <div class="price-amount">$${car.pricePerDay}</div>
-                  <p>per day</p>
               </div>
           </div>
           <div>
