@@ -26,7 +26,7 @@ const cars = [
       features: [
           "Super Spacious and Comfortable",
           "Advanced Safety Features",
-          "Large Cargo Space"
+          "Large Boot"
       ]
   },
   {
@@ -42,6 +42,21 @@ const cars = [
         "Dual Zone Climate Control",
         "Advanced Safety Features",
         "Large Cargo Space"
+    ]
+    },
+    {
+    id: "ertiga",
+    name: "Maruti Suzuki Ertiga",
+    shortDescription: "The versatile and fuel-efficient MPV,",
+    description: "Looking for a smart, fuel-efficient, and comfortable MPV? The Maruti Suzuki Ertiga is the ideal choice.whether you're traveling within the city or on a long-distance journey, the Ertiga ensures a smooth and spacious ride for you and your companions.",
+    image: "js/images/Innova.jpeg",
+    seats: 7,
+    fuelType: "Petrol/CNG",
+    year: 2023,
+    features: [
+        "Spacious & Comfortable",
+        "Fuel-Efficient & CNG Option",
+        "Low Maintenance & Reliability"
     ]
     }
 ];
