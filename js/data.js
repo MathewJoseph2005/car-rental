@@ -15,18 +15,33 @@ const cars = [
       ]
   },
   {
-      id: "innova",
+      id: "innova crysta",
       name: "Toyota Innova Crysta",
       shortDescription: "Spacious and comfortable family MPV",
-      description: "The Toyota Innova is a versatile multi-purpose vehicle that offers exceptional comfort and space. With its reliable performance, comfortable seating for up to 7 passengers, and ample cargo space, it's perfect for family trips or group travel.",
+      description: "If you’re looking for a reliable, comfortable, and cost-effective MPV for your cab service, the Toyota Innova has long been a proven choice. With its spacious cabin, ergonomic seating, and smooth suspension, it ensures a comfortable ride for passengers on both short and long journeys.",
       image: "js/images/Innova.jpeg",
       seats: 7,
       fuelType: "Diesel",
       year: 2023,
       features: [
-          "Dual Zone Climate Control",
+          "Super Spacious and Comfortable",
           "Advanced Safety Features",
           "Large Cargo Space"
       ]
-  }
+  },
+  {
+    id: "innova",
+    name: "Toyota Innova",
+    shortDescription: "Spacious and comfortable family MPV",
+    description: "The Toyota Innova is a versatile multi-purpose vehicle that offers exceptional comfort and space. With its reliable performance, comfortable seating for up to 7 passengers, and ample cargo space, it's perfect for family trips or group travel.",
+    image: "js/images/Innova.jpeg",
+    seats: 7,
+    fuelType: "Diesel",
+    year: 2023,
+    features: [
+        "Dual Zone Climate Control",
+        "Advanced Safety Features",
+        "Large Cargo Space"
+    ]
+    }
 ];
