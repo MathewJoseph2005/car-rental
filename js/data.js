@@ -7,7 +7,7 @@ const cars = [
       image:"js/images/Dzire.jpeg",
       seats: 5,
       fuelType: "Petrol",
-      year: 2022,
+      year: "",
       features: [
           "Air Conditioning",
           "ABS & Airbags",
@@ -22,7 +22,7 @@ const cars = [
       image: "js/images/InnovaCrysta.jpeg",
       seats: 7,
       fuelType: "Diesel",
-      year: 2023,
+      year: "",
       features: [
           "Super Spacious and Comfortable",
           "Advanced Safety Features",
@@ -37,7 +37,7 @@ const cars = [
     image: "js/images/Innova.jpeg",
     seats: 7,
     fuelType: "Diesel",
-    year: 2023,
+    year: "",
     features: [
         "Dual Zone Climate Control",
         "Advanced Safety Features",
@@ -52,11 +52,26 @@ const cars = [
     image: "js/images/Ertiga.jpeg",
     seats: 7,
     fuelType: "Petrol/CNG",
-    year: 2023,
+    year: "",
     features: [
         "Spacious & Comfortable",
         "Fuel-Efficient & CNG Option",
         "Low Maintenance & Reliability"
     ]
-    }
+    },
+    {
+        id: "traveller",
+        name: "Force Traveller",
+        shortDescription: "Spacious, reliable, powerful, comfortable, safe MPV",
+        description:"The Force Traveller is a spacious, reliable, and fuel-efficient multi-utility vehicle, perfect for travel, tourism, and business needs. With a powerful engine, comfortable seating, and advanced safety features, it ensures a smooth and hassle-free journey for passengers and operators alike.",
+        image: "js/images/Traveller.jpeg",
+        seats: "",
+        fuelType: "Diesel",
+        year: "",
+        features: [
+            "Ample Leg Room",
+            "Powerful Engine",
+            "Advanced Safety Features"  
+        ]
+    },
 ];
