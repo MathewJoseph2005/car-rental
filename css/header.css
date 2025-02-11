@@ -56,64 +56,6 @@
 }
 
 /* Hero Section */
-/* Header Styles */
-.header {
-  position: sticky;
-  height: 100px;
-  top: 0;
-  background-color: var(--background);
-  border-bottom: 1px solid var(--border-color);
-  z-index: 100;
-  padding: 1rem 0;
-}
-
-.header .container {
-  height: 50px;
-  display: left;
-  justify-content: space-between;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-.logo-icon {
-  color: var(--primary-color);
-}
-
-.nav {
-    margin-left: auto; /* Pushes nav to the right */
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-.nav a {
-  text-decoration: none;
-  color: var(--text-color);
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.nav a:hover {
-  color: var(--primary-color);
-}
-
-/* Hero Section */
 .hero {
   position: relative;
   height: 75vh;
@@ -133,7 +75,6 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
-
 
 .hero-content {
   position: relative;
